@@ -8,26 +8,17 @@ using Microsoft.Extensions.Logging;
 
 namespace GitStudentCrud.Controllers
 {
-    //[Route("[controller]")]
-    public class UserController : Controller
+   // [Route("[controller]")]
+    public class StudentController : Controller
     {
-        private readonly ILogger<UserController> _logger;
+        private readonly ILogger<StudentController> _logger;
 
-        public UserController(ILogger<UserController> logger)
+        public StudentController(ILogger<StudentController> logger)
         {
             _logger = logger;
         }
 
         public IActionResult Index()
-        {
-            return View();
-        }
-        public IActionResult Register()
-        {
-            return View();
-        }
-
-        public IActionResult Login()
         {
             return View();
         }

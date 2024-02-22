@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\interns053\\GitHubStudentCrud\\GitCrudStudents\\GitStudentCrud\\GitStudentCrud.csproj",
+      "projectUniqueName": "C:\\interns053\\GitCrudStudents\\GitCrudStudent\\GitStudentCrud\\GitStudentCrud.csproj",
       "projectName": "GitStudentCrud",
-      "projectPath": "C:\\interns053\\GitHubStudentCrud\\GitCrudStudents\\GitStudentCrud\\GitStudentCrud.csproj",
+      "projectPath": "C:\\interns053\\GitCrudStudents\\GitCrudStudent\\GitStudentCrud\\GitStudentCrud.csproj",
       "packagesPath": "C:\\Users\\Devarsh Patel\\.nuget\\packages\\",
-      "outputPath": "C:\\interns053\\GitHubStudentCrud\\GitCrudStudents\\GitStudentCrud\\obj\\",
+      "outputPath": "C:\\interns053\\GitCrudStudents\\GitCrudStudent\\GitStudentCrud\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Devarsh Patel\\AppData\\Roaming\\NuGet\\NuGet.Config",

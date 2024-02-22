@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/9q181UhYIbgROZN2Sg8A3u839wr26TCWjScS+Ge7UsGVj+YfZnur3DE5LHpKYM5dHqbAoQe4H1NSYrMn8ihEQ==",
+  "dgSpecHash": "H32b+jZrAvHPtjj5D4RQJZQBF4Z8a0UzXKlV7+3/RZoGornkUpPuzXg7FKvx4+ZGVL7Nz1Bg5kMEh93AMOiDkQ==",
   "success": true,
-  "projectFilePath": "C:\\interns053\\GitHubStudentCrud\\GitCrudStudents\\GitStudentCrud\\GitStudentCrud.csproj",
+  "projectFilePath": "C:\\interns053\\GitCrudStudents\\GitCrudStudent\\GitStudentCrud\\GitStudentCrud.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
