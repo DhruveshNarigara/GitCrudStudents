@@ -32,3 +32,37 @@
 /Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/GitStudentCrud.pdb
 /Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/GitStudentCrud.genruntimeconfig.cache
 /Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/ref/GitStudentCrud.dll
+D:\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\appsettings.Development.json
+D:\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\appsettings.json
+D:\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\GitStudentCrud.staticwebassets.runtime.json
+D:\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\GitStudentCrud.exe
+D:\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\GitStudentCrud.deps.json
+D:\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\GitStudentCrud.runtimeconfig.json
+D:\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\GitStudentCrud.dll
+D:\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\GitStudentCrud.pdb
+D:\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\Npgsql.dll
+D:\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\System.Text.Json.dll
+D:\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.csproj.AssemblyReference.cache
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.AssemblyInfoInputs.cache
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.AssemblyInfo.cs
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.csproj.CoreCompileInputs.cache
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.MvcApplicationPartsAssemblyInfo.cache
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.RazorAssemblyInfo.cache
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.RazorAssemblyInfo.cs
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\staticwebassets.build.json
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\staticwebassets.development.json
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\scopedcss\bundle\GitStudentCrud.styles.css
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\scopedcss\projectbundle\GitStudentCrud.bundle.scp.css
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.csproj.CopyComplete
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.dll
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\refint\GitStudentCrud.dll
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.pdb
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.genruntimeconfig.cache
+D:\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\ref\GitStudentCrud.dll
