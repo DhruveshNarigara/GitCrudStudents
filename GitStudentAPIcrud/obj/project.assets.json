@@ -226,6 +226,9 @@
       "GitStudentCrud/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Npgsql": "8.0.2"
+        },
         "compile": {
           "bin/placeholder/GitStudentCrud.dll": {}
         },
