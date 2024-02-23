@@ -38,6 +38,13 @@ namespace GitStudentCrud.Controllers
         {
             return View();
         }
+        public IActionResult Create()
+        {
+            // var courses = .GetAllCourses();
+            // ViewBag.Languages = new List<string> { "Gujarati", "Marathi", "English" };
+            // ViewBag.Courses = new SelectList(courses, "c_course_id", "c_course_name");
+            return View();
+        }
 
         
 
