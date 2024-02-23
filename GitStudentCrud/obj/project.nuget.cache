@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mXaDryKBjXJYqbr3EQNAba0aod7G+H8LeC9zrhAVJKVS2aV2VzbUY9QOulW984yL7bKVtl7t+an87jbmywW14Q==",
+  "dgSpecHash": "8sr6CtDUcohEtA2FM28SUTbLLucDb9g/oJ1/qw6R4zQOKj3tk68+Ns/lhWROuSb4e1hkxGy+eo10Tj4tSsvfLQ==",
   "success": true,
   "projectFilePath": "C:\\interns053\\GitCrudStudents\\GitCrudStudent\\GitStudentCrud\\GitStudentCrud.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Devarsh Patel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Devarsh Patel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\Devarsh Patel\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
+    "C:\\Users\\Devarsh Patel\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",
     "C:\\Users\\Devarsh Patel\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "C:\\Users\\Devarsh Patel\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Devarsh Patel\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
