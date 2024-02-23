@@ -436,16 +436,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\Devarsh Patel\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\darsh\\.nuget\\packages\\": {}
->>>>>>> f1469bf4ae4b029b8f86f1a4ac19653f129dfd40
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\interns053\\GitCrudStudents\\GitCrudStudent\\GitStudentCrud\\GitStudentCrud.csproj",
       "projectName": "GitStudentCrud",
       "projectPath": "C:\\interns053\\GitCrudStudents\\GitCrudStudent\\GitStudentCrud\\GitStudentCrud.csproj",
@@ -455,16 +450,6 @@
       "configFilePaths": [
         "C:\\Users\\Devarsh Patel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-=======
-      "projectUniqueName": "E:\\CASE POINT\\internship\\assignment\\GITHUB\\GitCrudStudents\\GitStudentCrud\\GitStudentCrud.csproj",
-      "projectName": "GitStudentCrud",
-      "projectPath": "E:\\CASE POINT\\internship\\assignment\\GITHUB\\GitCrudStudents\\GitStudentCrud\\GitStudentCrud.csproj",
-      "packagesPath": "C:\\Users\\darsh\\.nuget\\packages\\",
-      "outputPath": "E:\\CASE POINT\\internship\\assignment\\GITHUB\\GitCrudStudents\\GitStudentCrud\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\darsh\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> f1469bf4ae4b029b8f86f1a4ac19653f129dfd40
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -513,11 +498,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
->>>>>>> f1469bf4ae4b029b8f86f1a4ac19653f129dfd40
       }
     }
   }

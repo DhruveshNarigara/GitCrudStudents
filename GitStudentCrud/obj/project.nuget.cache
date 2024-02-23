@@ -1,6 +1,5 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "8sr6CtDUcohEtA2FM28SUTbLLucDb9g/oJ1/qw6R4zQOKj3tk68+Ns/lhWROuSb4e1hkxGy+eo10Tj4tSsvfLQ==",
   "success": true,
   "projectFilePath": "C:\\interns053\\GitCrudStudents\\GitCrudStudent\\GitStudentCrud\\GitStudentCrud.csproj",
@@ -12,19 +11,6 @@
     "C:\\Users\\Devarsh Patel\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Devarsh Patel\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\Devarsh Patel\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
-=======
-  "dgSpecHash": "1A0xcwBuaQ6O8fgYa36KlwWqg2V/1GlRUL7ykLRc2QtBdUsGThEM8qzXwxbu2byZlB3Drw56C17HYbZW9s/z+Q==",
-  "success": true,
-  "projectFilePath": "E:\\CASE POINT\\internship\\assignment\\GITHUB\\GitCrudStudents\\GitStudentCrud\\GitStudentCrud.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\darsh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\darsh\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\darsh\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
-    "C:\\Users\\darsh\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
-    "C:\\Users\\darsh\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\darsh\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
-    "C:\\Users\\darsh\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
->>>>>>> f1469bf4ae4b029b8f86f1a4ac19653f129dfd40
   ],
   "logs": []
 }
