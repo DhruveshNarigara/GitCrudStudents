@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using GitStudentCrud.Repositories;
 using GitStudentCrud.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace GitStudentCrud.Controllers
 {
@@ -19,11 +20,13 @@ namespace GitStudentCrud.Controllers
 
         private readonly IUserRepositories _userRepositories;
 
-        public StudentController(ILogger<StudentController> logger , IUserRepositories userRepositories , IStudentRepositories studentRepositories)
+        private readonly ICourseRepositories _courseRepositories;
+        public StudentController(ILogger<StudentController> logger , IUserRepositories userRepositories , IStudentRepositories studentRepositories , ICourseRepositories courseRepositories)
         {
             _logger = logger;
             _userRepositories = userRepositories; 
             _studentRepositories = studentRepositories;
+            _courseRepositories = courseRepositories;
         }
 
         public IActionResult Index()
@@ -40,9 +43,8 @@ namespace GitStudentCrud.Controllers
         }
         public IActionResult Create()
         {
-            // var courses = .GetAllCourses();
-            // ViewBag.Languages = new List<string> { "Gujarati", "Marathi", "English" };
-            // ViewBag.Courses = new SelectList(courses, "c_course_id", "c_course_name");
+            var courses = _courseRepositories.GetAllCourses();
+            ViewBag.Courses = new SelectList(courses, "c_course_id", "c_course_name");
             return View();
         }
 

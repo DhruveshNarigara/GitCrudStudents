@@ -4,6 +4,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<IUserRepositories,UserRepositories>();
 builder.Services.AddScoped<IStudentRepositories , StudentRepositories>();
+builder.Services.AddScoped<ICourseRepositories , CourseRepositories>();
+
 
 
 
