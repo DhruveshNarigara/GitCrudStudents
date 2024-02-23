@@ -11,20 +11,30 @@ namespace GitStudentCrud.Repositories
     public class UserRepositories : CommanRepositories , IUserRepositories
     {
 
-        public void UserRegister()
+        public void UserRegister(UserModel Reg)
         {
             conn.Open();
-            using(var cmd = new NpgsqlCommand("Insert into t_regusers(c_username,c_email,c_password) values (@c_username,@c_email,@c_password)",conn))
+            using(var cmd = new NpgsqlCommand("insert into t_regusers(c_username , c_email , c_password) values (@username,@email,@password);",conn))
             {
-                cmd.Parameters.AddWithValue("@c_username");
-                cmd.Parameters.AddWithValue("@c_email");
-                cmd.Parameters.AddWithValue("@c_password");
+                cmd.Parameters.AddWithValue("@username",Reg.c_username);
+                cmd.Parameters.AddWithValue("@email",Reg.c_email);
+                cmd.Parameters.AddWithValue("@password",Reg.c_password);
+                cmd.ExecuteNonQuery();
             }
+            conn.Close();
         }
 
-        public void UserLogin()
+        public void UserLogin(UserModel Login)
         {
-
+            conn.Open();
+             using(var cmd = new NpgsqlCommand("select c_username,c_password from t_regusers where c_email=@email and c_password=@password;",conn))
+            {
+                
+                cmd.Parameters.AddWithValue("@email",Login.c_email);
+                cmd.Parameters.AddWithValue("@password",Login.c_password);
+                cmd.ExecuteNonQuery();
+            }
+            conn.Close();
         }
     }
 }

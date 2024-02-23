@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using GitStudentCrud.Models;
-using GitStudentCrud.Repositories;
 using Npgsql;
+using GitStudentCrud.Repositories;
+using GitStudentCrud.Models;
 
 namespace GitStudentCrud.Controllers
 {
@@ -18,7 +18,7 @@ namespace GitStudentCrud.Controllers
 
         private readonly IUserRepositories _userRepositories;
 
-        public UserController(ILogger<UserController> logger , IUserRepositories userRepositories)
+        public UserController(ILogger<UserController> logger, IUserRepositories userRepositories)
         {
             _logger = logger;
             _userRepositories = userRepositories;
@@ -28,19 +28,33 @@ namespace GitStudentCrud.Controllers
         {
             return View();
         }
-
         public IActionResult Register()
         {
             return View();
         }
-        // [HttpPost]
-        // public IActionResult Register(UserModel register)
-        // {
-        //     _userRepositories.UserRegister(register);
-        //     return RedirectToAction("Login");
-        // }
+        [HttpPost]
+        public IActionResult Register(UserModel Reg)
+        {
+            _userRepositories.UserRegister(Reg);
+            return RedirectToAction("Login");
+        }
 
         public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Login(UserModel Reg)
+        {
+            _userRepositories.UserLogin(Reg);
+            return RedirectToAction("Index","Home");
+        }
+
+       
+
+
+        public IActionResult Edit()
         {
             return View();
         }

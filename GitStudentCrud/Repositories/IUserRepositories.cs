@@ -9,8 +9,8 @@ namespace GitStudentCrud.Repositories
 {
     public interface IUserRepositories
     {
-        void UserRegister();
+        void UserRegister(UserModel Reg);
 
-        void UserLogin();
+        void UserLogin(UserModel Login);
     }
 }
