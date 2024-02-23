@@ -3,6 +3,7 @@ using GitStudentCrud.Repositories;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<IUserRepositories,UserRepositories>();
+builder.Services.AddScoped<ICourseRepositories,CourseRepositories>();
 
 
 builder.Services.AddDistributedMemoryCache();

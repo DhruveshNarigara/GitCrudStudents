@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
 using GitStudentCrud.Repositories;
 using GitStudentCrud.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace GitStudentCrud.Controllers
 {
@@ -15,12 +16,14 @@ namespace GitStudentCrud.Controllers
     {
         private readonly ILogger<UserController> _logger;
         private readonly IUserRepositories _userRepositories;
+        private readonly ICourseRepositories _courseRepositories;
         
 
-        public UserController(ILogger<UserController> logger, IUserRepositories userRepositories)
+        public UserController(ILogger<UserController> logger, IUserRepositories userRepositories, ICourseRepositories courseRepositories)
         {
             _logger = logger;
             _userRepositories = userRepositories;
+            _courseRepositories = courseRepositories;
            
         }
 
@@ -71,13 +74,13 @@ namespace GitStudentCrud.Controllers
             if(email == null){
                 return RedirectToAction("Login","User");
             }
-            var courses = _courseHelper.GetAllCourses();
+            var courses = _courseRepositories.GetAllCourses();
             ViewBag.Languages = new List<string> { "Gujarati", "Marathi", "English" };
             ViewBag.Courses = new SelectList(courses, "c_course_id", "c_course_name");
             return View();
         }
           [HttpPost]
-        public IActionResult Create(StudentRegModal student)
+        public IActionResult Create(StudentRegModel student)
         {
             if (student.c_studphotoFile != null)
             {
@@ -89,7 +92,7 @@ namespace GitStudentCrud.Controllers
                 student.c_studuploaddoc = UploadFile(student.c_studuploaddocFile, "docs");
             }
 
-            _studentHelper.CreateStudent(student);
+            _userRepositories.CreateStudent(student);
             return RedirectToAction("Index");
         }
 
