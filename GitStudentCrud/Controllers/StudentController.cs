@@ -5,6 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using GitStudentCrud.Repositories;
+using GitStudentCrud.Models;
 
 namespace GitStudentCrud.Controllers
 {
@@ -13,15 +15,25 @@ namespace GitStudentCrud.Controllers
     {
         private readonly ILogger<StudentController> _logger;
 
-        public StudentController(ILogger<StudentController> logger)
+        private readonly IStudentRepositories _studentRepositories;
+
+        private readonly IUserRepositories _userRepositories;
+
+        public StudentController(ILogger<StudentController> logger , IUserRepositories userRepositories , IStudentRepositories studentRepositories)
         {
             _logger = logger;
+            _userRepositories = userRepositories; 
+            _studentRepositories = studentRepositories;
         }
 
         public IActionResult Index()
         {
             return View();
         }
+
+       
+
+        
         public IActionResult Edit()
         {
             return View();
