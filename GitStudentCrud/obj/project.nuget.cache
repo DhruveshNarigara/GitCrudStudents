@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GDOiZZe3rTAQK0CH7uEZ/xgl6Mx/Oa+4cKBphzd6iWTnvQmMOyqAvxPnShWs9Ndlsotni4UXvFcP64tqowGclg==",
+  "dgSpecHash": "B4PcFNfQPPmbrDFuUYvDM5fLYYw3Ol/2+ROvB1+7pOSdJj5XHwQFD6fOrNimXAmP1+b6b+11rF/9Werfst3gqw==",
   "success": true,
-  "projectFilePath": "/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/GitStudentCrud.csproj",
+  "projectFilePath": "C:\\CasePoint\\GitCrudStudents\\GitStudentCrud\\GitStudentCrud.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
