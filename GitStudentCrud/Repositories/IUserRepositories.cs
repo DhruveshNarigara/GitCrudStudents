@@ -11,6 +11,6 @@ namespace GitStudentCrud.Repositories
     {
         void UserRegister(UserModel Reg);
 
-        void UserLogin(UserModel Login);
+       UserModel UserLogin(UserModel Login);
     }
 }

@@ -5,17 +5,15 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Npgsql;
+using Microsoft.AspNetCore.Http;
 using GitStudentCrud.Repositories;
 using GitStudentCrud.Models;
 
 namespace GitStudentCrud.Controllers
 {
-    //[Route("[controller]")]
     public class UserController : Controller
     {
         private readonly ILogger<UserController> _logger;
-
         private readonly IUserRepositories _userRepositories;
 
         public UserController(ILogger<UserController> logger, IUserRepositories userRepositories)
@@ -28,10 +26,12 @@ namespace GitStudentCrud.Controllers
         {
             return View();
         }
+
         public IActionResult Register()
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult Register(UserModel Reg)
         {
@@ -47,12 +47,17 @@ namespace GitStudentCrud.Controllers
         [HttpPost]
         public IActionResult Login(UserModel Reg)
         {
-            _userRepositories.UserLogin(Reg);
-            return RedirectToAction("Index","Home");
+            var user = _userRepositories.UserLogin(Reg);
+            if (user != null)
+            {
+                HttpContext.Session.SetString("username", user.c_username);
+                return RedirectToAction("Index","Home");
+            }
+            else
+            {
+                return View();
+            }
         }
-
-       
-
 
         public IActionResult Edit()
         {

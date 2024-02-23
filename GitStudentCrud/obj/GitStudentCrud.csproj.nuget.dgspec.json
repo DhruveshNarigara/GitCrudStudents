@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/GitStudentCrud.csproj": {}
+    "E:\\CASE POINT\\internship\\assignment\\GITHUB\\GitCrudStudents\\GitStudentCrud\\GitStudentCrud.csproj": {}
   },
   "projects": {
-    "/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/GitStudentCrud.csproj": {
+    "E:\\CASE POINT\\internship\\assignment\\GITHUB\\GitCrudStudents\\GitStudentCrud\\GitStudentCrud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/GitStudentCrud.csproj",
+        "projectUniqueName": "E:\\CASE POINT\\internship\\assignment\\GITHUB\\GitCrudStudents\\GitStudentCrud\\GitStudentCrud.csproj",
         "projectName": "GitStudentCrud",
-        "projectPath": "/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/GitStudentCrud.csproj",
-        "packagesPath": "/Users/dhruveshnarigara/.nuget/packages/",
-        "outputPath": "/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/",
+        "projectPath": "E:\\CASE POINT\\internship\\assignment\\GITHUB\\GitCrudStudents\\GitStudentCrud\\GitStudentCrud.csproj",
+        "packagesPath": "C:\\Users\\darsh\\.nuget\\packages\\",
+        "outputPath": "E:\\CASE POINT\\internship\\assignment\\GITHUB\\GitCrudStudents\\GitStudentCrud\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/dhruveshnarigara/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\darsh\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.418/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
