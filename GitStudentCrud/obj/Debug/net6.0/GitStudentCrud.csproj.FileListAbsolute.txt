@@ -1,0 +1,68 @@
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/bin/Debug/net6.0/appsettings.Development.json
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/bin/Debug/net6.0/appsettings.json
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/bin/Debug/net6.0/GitStudentCrud.staticwebassets.runtime.json
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/bin/Debug/net6.0/GitStudentCrud
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/bin/Debug/net6.0/GitStudentCrud.deps.json
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/bin/Debug/net6.0/GitStudentCrud.runtimeconfig.json
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/bin/Debug/net6.0/GitStudentCrud.dll
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/bin/Debug/net6.0/GitStudentCrud.pdb
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/bin/Debug/net6.0/Npgsql.dll
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/bin/Debug/net6.0/System.Text.Json.dll
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/GitStudentCrud.csproj.AssemblyReference.cache
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/GitStudentCrud.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/GitStudentCrud.AssemblyInfoInputs.cache
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/GitStudentCrud.AssemblyInfo.cs
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/GitStudentCrud.csproj.CoreCompileInputs.cache
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/GitStudentCrud.MvcApplicationPartsAssemblyInfo.cache
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/GitStudentCrud.RazorAssemblyInfo.cache
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/GitStudentCrud.RazorAssemblyInfo.cs
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/staticwebassets.build.json
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/staticwebassets.development.json
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/scopedcss/bundle/GitStudentCrud.styles.css
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/scopedcss/projectbundle/GitStudentCrud.bundle.scp.css
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/GitStudentCrud.csproj.CopyComplete
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/GitStudentCrud.dll
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/refint/GitStudentCrud.dll
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/GitStudentCrud.pdb
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/GitStudentCrud.genruntimeconfig.cache
+/Users/dhruveshnarigara/Documents/CASE POINT INTERNSHIP/DOTNET CORE MVC CLAERNT/GroupE_GitHub/GitStudentCrud/obj/Debug/net6.0/ref/GitStudentCrud.dll
+C:\CasePoint\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\appsettings.Development.json
+C:\CasePoint\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\appsettings.json
+C:\CasePoint\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\GitStudentCrud.staticwebassets.runtime.json
+C:\CasePoint\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\GitStudentCrud.exe
+C:\CasePoint\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\GitStudentCrud.deps.json
+C:\CasePoint\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\GitStudentCrud.runtimeconfig.json
+C:\CasePoint\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\GitStudentCrud.dll
+C:\CasePoint\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\GitStudentCrud.pdb
+C:\CasePoint\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\CasePoint\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\CasePoint\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\Npgsql.dll
+C:\CasePoint\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\CasePoint\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\CasePoint\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\System.Text.Json.dll
+C:\CasePoint\GitCrudStudents\GitStudentCrud\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.csproj.AssemblyReference.cache
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.GeneratedMSBuildEditorConfig.editorconfig
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.AssemblyInfoInputs.cache
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.AssemblyInfo.cs
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.csproj.CoreCompileInputs.cache
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.MvcApplicationPartsAssemblyInfo.cache
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.RazorAssemblyInfo.cache
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.RazorAssemblyInfo.cs
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\staticwebassets.build.json
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\staticwebassets.development.json
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\scopedcss\bundle\GitStudentCrud.styles.css
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\scopedcss\projectbundle\GitStudentCrud.bundle.scp.css
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.csproj.CopyComplete
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.dll
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\refint\GitStudentCrud.dll
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.pdb
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\GitStudentCrud.genruntimeconfig.cache
+C:\CasePoint\GitCrudStudents\GitStudentCrud\obj\Debug\net6.0\ref\GitStudentCrud.dll

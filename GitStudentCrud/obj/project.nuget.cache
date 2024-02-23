@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "B4PcFNfQPPmbrDFuUYvDM5fLYYw3Ol/2+ROvB1+7pOSdJj5XHwQFD6fOrNimXAmP1+b6b+11rF/9Werfst3gqw==",
+  "dgSpecHash": "XWPih8flclx0dKBIk84AnTTbvPLAwqFAV2RSXml/cG7GcaZhlk0LWIkLnDUDU4VKiW2lAhfARuTKN5hD3L9Sdw==",
   "success": true,
   "projectFilePath": "C:\\CasePoint\\GitCrudStudents\\GitStudentCrud\\GitStudentCrud.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\Computer Land\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Computer Land\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Computer Land\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
+    "C:\\Users\\Computer Land\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "C:\\Users\\Computer Land\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Computer Land\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\Computer Land\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\CasePoint\\GitCrudStudents\\GitStudentCrud\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
