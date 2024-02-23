@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\interns053\\GitCrudStudents\\GitCrudStudent\\GitStudentCrud\\GitStudentCrud.csproj": {}
   },
   "projects": {
@@ -12,9 +13,30 @@
         "projectPath": "C:\\interns053\\GitCrudStudents\\GitCrudStudent\\GitStudentCrud\\GitStudentCrud.csproj",
         "packagesPath": "C:\\Users\\Devarsh Patel\\.nuget\\packages\\",
         "outputPath": "C:\\interns053\\GitCrudStudents\\GitCrudStudent\\GitStudentCrud\\obj\\",
+=======
+    "C:\\CasePoint\\GitCrudStudents\\GitStudentCrud\\GitStudentCrud.csproj": {}
+  },
+  "projects": {
+    "C:\\CasePoint\\GitCrudStudents\\GitStudentCrud\\GitStudentCrud.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CasePoint\\GitCrudStudents\\GitStudentCrud\\GitStudentCrud.csproj",
+        "projectName": "GitStudentCrud",
+        "projectPath": "C:\\CasePoint\\GitCrudStudents\\GitStudentCrud\\GitStudentCrud.csproj",
+        "packagesPath": "C:\\Users\\Computer Land\\.nuget\\packages\\",
+        "outputPath": "C:\\CasePoint\\GitCrudStudents\\GitStudentCrud\\obj\\",
+>>>>>>> 2c179427b1296869e5aa548dd3edb6f4522f6864
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Devarsh Patel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\Computer Land\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> 2c179427b1296869e5aa548dd3edb6f4522f6864
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +44,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
+=======
+          "C:\\Program Files\\dotnet\\library-packs": {},
+>>>>>>> 2c179427b1296869e5aa548dd3edb6f4522f6864
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +90,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+>>>>>>> 2c179427b1296869e5aa548dd3edb6f4522f6864
         }
       }
     }
