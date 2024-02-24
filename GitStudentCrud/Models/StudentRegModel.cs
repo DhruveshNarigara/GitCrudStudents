@@ -40,6 +40,6 @@ namespace GitStudentCrud.Models
         public string? c_studphoto { get; set; }
         public string? c_studuploaddoc { get; set; } 
 
-        public string? c_studlanguages { get; set; }
+        public string[]? c_studlanguages { get; set; }
     }
 }

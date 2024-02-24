@@ -3,7 +3,6 @@
     ViewData["Title"] = "Edit";
     var languages = new List<string> { "Gujarati", "Marathi", "English" };
 }
-
 <h1>Edit</h1>
 
 <h4>Student</h4>
@@ -62,7 +61,7 @@
                 <select asp-for="c_studcourse_id" class="form-control" asp-items="ViewBag.Courses"></select>
                 <span asp-validation-for="c_studcourse_id" class="text-danger"></span>
             </div>
-             <div class="form-group">
+            @* <div class="form-group">
             <label asp-for="c_studphotoFile" class="control-label"></label>
             <input asp-for="c_studphotoFile" type="file" class="form-control" />
             <span asp-validation-for="c_studphotoFile" class="text-danger"></span>
@@ -71,9 +70,9 @@
             <label asp-for="c_studuploaddocFile" class="control-label"></label>
             <input asp-for="c_studuploaddocFile" type="file" class="form-control" />
             <span asp-validation-for="c_studuploaddocFile" class="text-danger"></span>
-            </div> 
+            </div> *@
 
-             @* <div class="form-group">
+            <div class="form-group">
                 <label asp-for="c_studphotoFile" class="control-label"></label>
                 <img src="@Url.Action("GetPhoto", "Student", new { id = Model.c_studid })" alt="Student Photo"
                     width="100" />
@@ -86,7 +85,7 @@
                     Document</a>
                 <input asp-for="c_studuploaddocFile" type="file" class="form-control" />
                 <span asp-validation-for="c_studuploaddocFile" class="text-danger"></span>
-            </div> *@
+            </div>
             <div class="form-group">
                 <label asp-for="c_studlanguages" class="control-label"></label>
                 <select asp-for="c_studlanguages" class="form-control" asp-items="@(new MultiSelectList(languages))"
@@ -108,4 +107,4 @@
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
-} 
+}

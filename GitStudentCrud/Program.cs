@@ -1,10 +1,12 @@
 using GitStudentCrud.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Configuration.AddJsonFile("appsettings.json");
 
 builder.Services.AddScoped<IUserRepositories,UserRepositories>();
 builder.Services.AddScoped<ICourseRepositories,CourseRepositories>();
-
+builder.Services.AddScoped<IStudentRepositories,StudentRepositories>();
+ 
 
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>

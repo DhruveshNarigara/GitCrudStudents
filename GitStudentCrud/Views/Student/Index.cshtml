@@ -21,7 +21,7 @@
             </tr>
         </thead>
         <tbody>
-            @* @foreach (var student in Model)
+            @foreach (var student in Model)
             {
                 <tr>
                     <td>@student.c_studid</td>
@@ -38,15 +38,19 @@
                             width="100" />
                     </td>
                     <td>
-                        <a href="@Url.Action("GetDocument", "Student", new { id = student.c_studid })" download class="btn btn-primary">Download Document</a>
+                        <a href="@Url.Action("GetDocument", "Student", new { id = student.c_studid })" download
+                            class="btn btn-primary">Download Document</a>
                     </td>
                     <td>
                         <a asp-action="Edit" asp-route-id="@student.c_studid" class="btn btn-warning">Edit</a> |
-                        <a asp-action="Delete" asp-route-id="@student.c_studid" class="btn btn-danger">Delete</a> |
-                        <a asp-action="Details" asp-route-id="@student.c_studid" class="btn btn-info">Details</a>
+                        <a asp-action="Detail" asp-route-id="@student.c_studid" class="btn btn-danger">Detail</a> |
+                        <a asp-action="Delete" asp-route-id="@student.c_studid" class="btn btn-danger">Delete</a>
+                        @* <input type="submit" value="Delete" class="btn btn-danger btn-sm" onclick="return confirm('Are
+                    you sure you want to delete this?');" /> *@
+
                     </td>
                 </tr>
-            } *@
+            }
         </tbody>
     </table>
 </div>

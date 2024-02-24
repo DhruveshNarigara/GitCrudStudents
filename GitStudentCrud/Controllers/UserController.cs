@@ -17,13 +17,17 @@ namespace GitStudentCrud.Controllers
         private readonly ILogger<UserController> _logger;
         private readonly IUserRepositories _userRepositories;
         private readonly ICourseRepositories _courseRepositories;
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly IStudentRepositories _studentRepositories;
         
 
-        public UserController(ILogger<UserController> logger, IUserRepositories userRepositories, ICourseRepositories courseRepositories)
+        public UserController(ILogger<UserController> logger, IUserRepositories userRepositories, ICourseRepositories courseRepositories, IWebHostEnvironment webHostEnvironment, IStudentRepositories studentRepositories)
         {
             _logger = logger;
             _userRepositories = userRepositories;
             _courseRepositories = courseRepositories;
+            _webHostEnvironment = webHostEnvironment;
+            _studentRepositories = studentRepositories;
            
         }
 
@@ -64,9 +68,14 @@ namespace GitStudentCrud.Controllers
             }
         }
 
-        public IActionResult Edit()
+
+        public IActionResult Edit(int id)
         {
-            return View();
+            var student = _studentRepositories.GetStudent(id);
+            var courses = _courseRepositories.GetAllCourses();
+            ViewBag.Languages = new List<string> { "Gujarati", "Marathi", "English" };
+            ViewBag.Courses = new SelectList(courses, "c_course_id", "c_course_name", student.c_studcourse_id);
+            return View(student);
         }
             public IActionResult Create()
         {
@@ -79,22 +88,49 @@ namespace GitStudentCrud.Controllers
             ViewBag.Courses = new SelectList(courses, "c_course_id", "c_course_name");
             return View();
         }
-          [HttpPost]
-        public IActionResult Create(StudentRegModel student)
+        //   [HttpPost]
+        // public IActionResult Create(StudentRegModel student)
+        // {
+        //     if (student.c_studphotoFile != null)
+        //     {
+        //         student.c_studphoto = UploadFile(student.c_studphotoFile, "images");
+        //     }
+
+        //     if (student.c_studuploaddocFile != null)
+        //     {
+        //         student.c_studuploaddoc = UploadFile(student.c_studuploaddocFile, "docs");
+        //     }
+
+        //     _userRepositories.CreateStudent(student);
+        //     return RedirectToAction("Index");
+        // }
+         private string UploadFile(IFormFile file, string folderName)
         {
-            if (student.c_studphotoFile != null)
+            var fileName = Path.GetFileName(file.FileName);
+            var filePath = Path.Combine(_webHostEnvironment.WebRootPath, folderName, fileName);
+            using (var stream = System.IO.File.Create(filePath))
             {
-                student.c_studphoto = UploadFile(student.c_studphotoFile, "images");
+                file.CopyTo(stream);
             }
-
-            if (student.c_studuploaddocFile != null)
-            {
-                student.c_studuploaddoc = UploadFile(student.c_studuploaddocFile, "docs");
-            }
-
-            _userRepositories.CreateStudent(student);
-            return RedirectToAction("Index");
+            return filePath;
         }
+
+        // public IActionResult GetPhoto(int id)
+        // {
+        //     var student = _studentRepositories.GetStudent(id);
+        //     var photoPath = student.c_studphoto;
+        //     var photoBytes = System.IO.File.ReadAllBytes(photoPath);
+        //     return File(photoBytes, "image/jpeg");
+        // }
+
+        // public IActionResult GetDocument(int id)
+        // {
+        //     var student = _studentRepositories.GetStudent(id);
+        //     var docPath = student.c_studuploaddoc;
+        //     var docBytes = System.IO.File.ReadAllBytes(docPath);
+        //     return File(docBytes, "application/octet-stream");
+        // }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
