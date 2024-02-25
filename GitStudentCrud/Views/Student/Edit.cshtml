@@ -32,69 +32,66 @@
                 <label asp-for="c_studpassword" class="control-label"></label>
                 <input asp-for="c_studpassword" class="form-control" />
                 <span asp-validation-for="c_studpassword" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="c_studgender" class="control-label"></label>
-                <div class="form-check">
-                    <input asp-for="c_studgender" class="form-check-input" type="radio" value="M" id="male" />
-                    <label class="form-check-label" for="male">Male</label>
-                </div>
-                <div class="form-check">
-                    <input asp-for="c_studgender" class="form-check-input" type="radio" value="F" id="female" />
-                    <label class="form-check-label" for="female">Female</label>
-                </div>
-                <span asp-validation-for="c_studgender" class="text-danger"></span>
-            </div>
+               <label for="c_studgender">Gender</label>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="c_studgender" value="M" id="male" @(Model.c_studgender == "M" ? "checked" : "") />
+    <label class="form-check-label" for="male">Male</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="c_studgender" value="F" id="female" @(Model.c_studgender == "F" ? "checked" : "") />
+    <label class="form-check-label" for="female">Female</label>
+</div>
 
-            <div class="form-group">
-                <label asp-for="c_studmobile" class="control-label"></label>
-                <input asp-for="c_studmobile" class="form-control" />
-                <span asp-validation-for="c_studmobile" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="c_studaddress" class="control-label"></label>
-                <textarea asp-for="c_studaddress" class="form-control"></textarea>
-                <span asp-validation-for="c_studaddress" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="c_studcourse_id" class="control-label"></label>
-                <select asp-for="c_studcourse_id" class="form-control" asp-items="ViewBag.Courses"></select>
-                <span asp-validation-for="c_studcourse_id" class="text-danger"></span>
-            </div>
-            @* <div class="form-group">
-            <label asp-for="c_studphotoFile" class="control-label"></label>
-            <input asp-for="c_studphotoFile" type="file" class="form-control" />
-            <span asp-validation-for="c_studphotoFile" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-            <label asp-for="c_studuploaddocFile" class="control-label"></label>
-            <input asp-for="c_studuploaddocFile" type="file" class="form-control" />
-            <span asp-validation-for="c_studuploaddocFile" class="text-danger"></span>
-            </div> *@
-
-            <div class="form-group">
+                <div class="form-group">
+                    <label asp-for="c_studmobile" class="control-label"></label>
+                    <input asp-for="c_studmobile" class="form-control" />
+                    <span asp-validation-for="c_studmobile" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="c_studaddress" class="control-label"></label>
+                    <textarea asp-for="c_studaddress" class="form-control"></textarea>
+                    <span asp-validation-for="c_studaddress" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="c_studcourse_id" class="control-label"></label>
+                    <select asp-for="c_studcourse_id" class="form-control" asp-items="ViewBag.Courses"></select>
+                    <span asp-validation-for="c_studcourse_id" class="text-danger"></span>
+                </div>
+                @* <div class="form-group">
                 <label asp-for="c_studphotoFile" class="control-label"></label>
-                <img src="@Url.Action("GetPhoto", "Student", new { id = Model.c_studid })" alt="Student Photo"
-                    width="100" />
                 <input asp-for="c_studphotoFile" type="file" class="form-control" />
                 <span asp-validation-for="c_studphotoFile" class="text-danger"></span>
-            </div>
-            <div class="form-group">
+                </div>
+                <div class="form-group">
                 <label asp-for="c_studuploaddocFile" class="control-label"></label>
-                <a href="@Url.Action("GetDocument", "Student", new { id = Model.c_studid })" download>Download Current
-                    Document</a>
                 <input asp-for="c_studuploaddocFile" type="file" class="form-control" />
                 <span asp-validation-for="c_studuploaddocFile" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="c_studlanguages" class="control-label"></label>
-                <select asp-for="c_studlanguages" class="form-control" asp-items="@(new MultiSelectList(languages))"
-                    multiple></select>
-                <span asp-validation-for="c_studlanguages" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
+                </div> *@
+
+                <div class="form-group">
+                    <label asp-for="c_studphotoFile" class="control-label"></label>
+                    <img src="@Url.Action("GetPhoto", "Student", new { id = Model.c_studid })" alt="Student Photo"
+                        width="100" />
+                    <input asp-for="c_studphotoFile" type="file" class="form-control" />
+                    <span asp-validation-for="c_studphotoFile" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="c_studuploaddocFile" class="control-label"></label>
+                    <a href="@Url.Action("GetDocument", "Student", new { id = Model.c_studid })" download>Download
+                        Current
+                        Document</a>
+                    <input asp-for="c_studuploaddocFile" type="file" class="form-control" />
+                    <span asp-validation-for="c_studuploaddocFile" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="c_studlanguages" class="control-label"></label>
+                    <select asp-for="c_studlanguages" class="form-control" asp-items="@(new MultiSelectList(languages))"
+                        multiple></select>
+                    <span asp-validation-for="c_studlanguages" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
         </form>
     </div>
 </div>

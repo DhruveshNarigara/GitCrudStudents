@@ -61,7 +61,7 @@ namespace GitStudentCrud.Repositories
         public StudentRegModel GetStudent(int id)
         {
             var student = new StudentRegModel();
-            using (var conn = new NpgsqlConnection())
+            //using (var conn = new NpgsqlConnection())
             {
                 conn.Open();
                 using (var cmd = new NpgsqlCommand("SELECT * FROM t_student WHERE c_studid = @id",conn))
@@ -91,7 +91,7 @@ namespace GitStudentCrud.Repositories
         }
         public void DeleteStudent(int id)
         {
-            using (var conn = new NpgsqlConnection())
+           // using (var conn = new NpgsqlConnection())
             {
                 conn.Open();
                 using (var cmd = new NpgsqlCommand("DELETE FROM t_student WHERE c_studid = @id", conn))

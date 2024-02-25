@@ -1,0 +1,62 @@
+@model GitStudentCrud.Models.StudentRegModel
+
+<h2>Student Details</h2>
+
+<div>
+    <h4>Name:</h4>
+    <p>@Model.c_studname</p>
+</div>
+
+<div>
+    <h4>Date of Birth:</h4>
+    <p>@Model.c_studdob.ToShortDateString()</p>
+</div>
+
+<div>
+    <h4>Email:</h4>
+    <p>@Model.c_studemail</p>
+</div>
+
+<div>
+    <h4>Gender:</h4>
+    <p>@Model.c_studgender</p>
+</div>
+
+<div>
+    <h4>Mobile:</h4>
+    <p>@Model.c_studmobile</p>
+</div>
+
+<div>
+    <h4>Address:</h4>
+    <p>@Model.c_studaddress</p>
+</div>
+
+<div>
+    <h4>Course ID:</h4>
+    <p>@Model.c_studcourse_id</p>
+</div>
+
+@* <div>
+<h4>Languages:</h4>
+<p>@Model.c_studlanguages</p>
+</div> *@
+
+<div>
+    <h4>Languages:</h4>
+    <p>@string.Join(", ", Model.c_studlanguages)</p>
+</div>
+
+<div>
+    <h4>Photo:</h4>
+    <img src="@Url.Action("GetPhoto", "Student", new { id = Model.c_studid })" alt="Student Photo" width="100" />
+</div>
+
+<div>
+    <h4>Document:</h4>
+    <a href="@Url.Action("GetDocument", "Student", new { id = Model.c_studid })" download>Download Document</a>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.c_studid">Edit</a> |
+<a asp-action="Delete" asp-route-id="@Model.c_studid">Delete</a> |
+<a asp-action="Index">Back to List</a>

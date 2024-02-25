@@ -53,7 +53,7 @@ namespace GitStudentCrud.Controllers
         //     ViewBag.Courses = new SelectList(courses, "c_course_id", "c_course_name", student.c_studcourse_id);
         //     return View();
         // }
-       
+
 
         public IActionResult Create()
         {
@@ -93,8 +93,27 @@ namespace GitStudentCrud.Controllers
         //     _studentRepositories.UpdateStudent(student);
         //     return RedirectToAction("Index");
         // }
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var student = _studentRepositories.GetStudent(id);
+            return View(student);
+        }
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            _studentRepositories.DeleteStudent(id);
+            return RedirectToAction(nameof(Index));
+        }
 
-       
+        [HttpGet]
+        public IActionResult Detail(int id)
+        {
+            return View(_studentRepositories.GetStudent(id));
+        }
+
+
 
 
 
